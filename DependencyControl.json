@@ -1,45 +1,45 @@
 {
-  "dependencyControlFeedFormatVersion": "0.3.0", 
-  "name": "Endill's Aegisub Scripts",
-  "description": "Main repository for all of Endill's automation scripts.",
-  "maintainer": "Endill",
-  "baseUrl": "https://github.com/Endilll/Endill-Aegisub-Scripts",
-  "url": "@{baseUrl}",
-  "fileBaseUrl": "https://raw.githubusercontent.com/Endilll/Endill-Aegisub-Scripts/@{channel}/@{namespace}",
+	"dependencyControlFeedFormatVersion": "0.3.0", 
+	"name": "Endill's Aegisub Scripts",
+	"description": "Main repository for all of Endill's automation scripts.",
+	"maintainer": "Endill",
+	"baseUrl": "https://github.com/Endilll/Endill-Aegisub-Scripts",
+	"url": "@{baseUrl}",
+	"fileBaseUrl": "https://raw.githubusercontent.com/Endilll/Endill-Aegisub-Scripts/@{channel}/@{namespace}",
 
-  "macros": {
-    "Endill.RandomMove": {
+	"macros": {
+		"Endill.RandomMove": {
 			"url": "@{baseUrl}#@{namespace}",
-      "author": Endill",
-      "name": "Random Move",
-      "description": "Generate multiple lines with different \\move."
-      "channels": {
-        "master": {
-          "version": "0.2.0",
-          "released": "2017-02-20",
-          "default": true,
-          "files": [
-            {
-              "name": ".moon",
-              "url": "@{fileBaseUrl}@{fileName}",
-              "sha1": "A7BD1C7F0E776BA3010B1448F22DE6528F73B077"
-            }
-          ],
-          "requiredModules": [
-            {
-              "moduleName": "aegisub.re"
-            },
+			"author": Endill",
+			"name": "Random Move",
+			"description": "Generate multiple lines with different \\move."
+			"channels": {
+				"master": {
+					"version": "0.2.0",
+					"released": "2017-02-20",
+					"default": true,
+					"files": [
 						{
-              "moduleName": "aegisub.util"
-            }
-          ]
-        }
-      },
-      "changelog": {
-        "0.2.0": [
-          "Initial release for DependencyControl"
-        ]
-      }
+							"name": ".moon",
+							"url": "@{fileBaseUrl}@{fileName}",
+							"sha1": "051EC82D501425537FF8F487819038A7ED688836"
+						}
+					],
+					"requiredModules": [
+						{
+							"moduleName": "aegisub.re"
+						},
+						{
+							"moduleName": "aegisub.util"
+						}
+					]
+				}
+			},
+			"changelog": {
+				"0.2.0": [
+					"Initial release for DependencyControl"
+				]
+			}
 		}
-   }
-  }  
+	}
+}  
