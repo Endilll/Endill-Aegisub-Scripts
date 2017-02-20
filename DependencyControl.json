@@ -12,7 +12,7 @@
 			"url": "@{baseUrl}#@{namespace}",
 			"author": "Endill",
 			"name": "Random Move",
-			"description": "Generate multiple lines with different \\move."
+			"description": "Generate multiple lines with different \\move.",
 			"channels": {
 				"master": {
 					"version": "0.2.0",
