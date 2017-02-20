@@ -1,5 +1,5 @@
 export script_name        = "Random Move"
-export script_description = "Generate multiple lines with different \\move."
+export script_description = "Generate multiple lines with different \\moves."
 export scrip_author       = "Endill"
 export script_version     = "0.2.0"
 export script_namespace   = "Endill.RandomMove"
