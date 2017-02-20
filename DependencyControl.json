@@ -10,7 +10,7 @@
 	"macros": {
 		"Endill.RandomMove": {
 			"url": "@{baseUrl}#@{namespace}",
-			"author": Endill",
+			"author": "Endill",
 			"name": "Random Move",
 			"description": "Generate multiple lines with different \\move."
 			"channels": {
