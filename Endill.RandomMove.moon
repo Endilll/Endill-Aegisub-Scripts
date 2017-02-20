@@ -30,7 +30,7 @@ versionRecord = nil
 if have_dc
 	versionRecord = DependencyControl {
 		url: "https://github.com/Endilll/Endill-Aegisub-Scripts"
-		feed: "https://github.com/Endilll/Endill-Aegisub-Scripts/raw/master/DependencyControl.json"
+		feed: "https://raw.githubusercontent.com/Endilll/Endill-Aegisub-Scripts/raw/master/DependencyControl.json"
 		{
       "aegisub.re",
       "aegisub.util"
